@@ -41,8 +41,13 @@ It's pretty straightforward if you have Node and MongoDB ready to go.
    PORT=3000
    MONGO_URI=your_mongodb_connection_string
    JWT_SECRET=your_jwt_secret
-   # Don't forget your Nodemailer setup if you want emails to work
-   you can do it through Google Console.
+   
+   # Nodemailer / OAuth2 Setup for sending emails
+   EMAIL_USER=your_email@gmail.com
+   CLIENT_ID=your_oauth_client_id
+   CLIENT_SECRET=your_oauth_client_secret
+   REFRESH_TOKEN=your_oauth_refresh_token
+   To construct the above use Google Console Cloud
    ```
 
 3. **Fire it up:**
